@@ -440,3 +440,30 @@
 13:43:42.516 [main] INFO  testCases.TC002_LoginTest - Submitting mail & pwd for login
 13:43:42.796 [main] INFO  testCases.TC002_LoginTest - *******Validating*******
 13:43:44.672 [main] INFO  testCases.TC002_LoginTest - Finished Test
+13:58:32.835 [main] DEBUG org.testng.TestNG - suiteXmlPath: "M:\OpencartV1\master.xml"
+13:59:41.112 [main] DEBUG org.testng.TestNG - suiteXmlPath: "M:\OpencartV1\master.xml"
+13:59:43.611 [main] INFO  testCases.TC001_AccountRegTest - *******Starting TC001_AccountRegTest********
+13:59:43.630 [main] INFO  testCases.TC001_AccountRegTest - Clicking on Account
+13:59:43.716 [main] INFO  testCases.TC001_AccountRegTest - Clicking on Register
+13:59:44.090 [main] INFO  testCases.TC001_AccountRegTest - Submitting Basic Customer Info
+13:59:45.668 [main] INFO  testCases.TC001_AccountRegTest - ********Doing Validation*********
+13:59:45.720 [main] INFO  testCases.TC001_AccountRegTest - **********Finished Tests***********
+13:59:49.533 [main] INFO  testCases.TC002_LoginTest - *******Initiating TC002_LoginTest********
+13:59:49.533 [main] INFO  testCases.TC002_LoginTest - Clicking on MyAccount
+13:59:49.619 [main] INFO  testCases.TC002_LoginTest - Clicking on Login_Btn
+13:59:49.911 [main] INFO  testCases.TC002_LoginTest - Submitting mail & pwd for login
+13:59:50.130 [main] INFO  testCases.TC002_LoginTest - *******Validating*******
+13:59:51.140 [main] INFO  testCases.TC002_LoginTest - Finished Test
+14:06:45.471 [main] DEBUG org.testng.TestNG - suiteXmlPath: "M:\OpencartV1\master.xml"
+14:06:47.914 [main] INFO  testCases.TC001_AccountRegTest - *******Starting TC001_AccountRegTest********
+14:06:47.946 [main] INFO  testCases.TC001_AccountRegTest - Clicking on Account
+14:06:48.041 [main] INFO  testCases.TC001_AccountRegTest - Clicking on Register
+14:06:48.455 [main] INFO  testCases.TC001_AccountRegTest - Submitting Basic Customer Info
+14:06:49.115 [main] INFO  testCases.TC001_AccountRegTest - ********Doing Validation*********
+14:06:50.184 [main] INFO  testCases.TC001_AccountRegTest - **********Finished Tests***********
+14:06:53.979 [main] INFO  testCases.TC002_LoginTest - *******Initiating TC002_LoginTest********
+14:06:53.979 [main] INFO  testCases.TC002_LoginTest - Clicking on MyAccount
+14:06:54.070 [main] INFO  testCases.TC002_LoginTest - Clicking on Login_Btn
+14:06:54.355 [main] INFO  testCases.TC002_LoginTest - Submitting mail & pwd for login
+14:06:54.634 [main] INFO  testCases.TC002_LoginTest - *******Validating*******
+14:06:55.551 [main] INFO  testCases.TC002_LoginTest - Finished Test
