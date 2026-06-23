@@ -426,3 +426,17 @@
 21:07:01.770 [main] INFO  testCases.TC002_LoginTest - Submitting mail & pwd for login
 21:07:01.972 [main] INFO  testCases.TC002_LoginTest - *******Validating*******
 21:07:03.298 [main] INFO  testCases.TC002_LoginTest - Finished Test
+13:41:25.458 [main] DEBUG org.testng.TestNG - suiteXmlPath: "M:\OpencartV1\master.xml"
+13:43:32.214 [main] DEBUG org.testng.TestNG - suiteXmlPath: "M:\OpencartV1\master.xml"
+13:43:35.229 [main] INFO  testCases.TC001_AccountRegTest - *******Starting TC001_AccountRegTest********
+13:43:35.260 [main] INFO  testCases.TC001_AccountRegTest - Clicking on Account
+13:43:35.356 [main] INFO  testCases.TC001_AccountRegTest - Clicking on Register
+13:43:35.657 [main] INFO  testCases.TC001_AccountRegTest - Submitting Basic Customer Info
+13:43:36.951 [main] INFO  testCases.TC001_AccountRegTest - ********Doing Validation*********
+13:43:36.988 [main] INFO  testCases.TC001_AccountRegTest - **********Finished Tests***********
+13:43:42.226 [main] INFO  testCases.TC002_LoginTest - *******Initiating TC002_LoginTest********
+13:43:42.226 [main] INFO  testCases.TC002_LoginTest - Clicking on MyAccount
+13:43:42.292 [main] INFO  testCases.TC002_LoginTest - Clicking on Login_Btn
+13:43:42.516 [main] INFO  testCases.TC002_LoginTest - Submitting mail & pwd for login
+13:43:42.796 [main] INFO  testCases.TC002_LoginTest - *******Validating*******
+13:43:44.672 [main] INFO  testCases.TC002_LoginTest - Finished Test
