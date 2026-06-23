@@ -1,5 +1,7 @@
 package utilities;
 
+import java.awt.Desktop;
+import java.io.File;
 //import java.awt.Desktop;
 //import java.io.File;
 import java.io.IOException;
@@ -113,33 +115,31 @@ public class ExtentReportManager implements ITestListener {
 
 		extent.flush();
 
-		/*
-		 * String pathOfExtentReport = System.getProperty("user.dir") + "/reports/" +
-		 * repName;
-		 * 
-		 * File extentReport = new File(pathOfExtentReport);
-		 * 
-		 * try { Desktop.getDesktop().browse(extentReport.toURI()); } catch (IOException
-		 * e) { e.printStackTrace(); }
-		 
-		try {
-			URL url = new URL("file:///" + System.getProperty("user.dir") + "\\reports\\" + repName);
+		String pathOfExtentReport = System.getProperty("user.dir") + "/reports/" + repName;
 
-			// Create the email message
-			ImageHtmlEmail email = new ImageHtmlEmail();
-			email.setDataSourceResolver(new DataSourceUrlResolver(url));
-			//email.setHostName("smtp.googlemail.com");
-			//email.setSmtpPort(465);
-			email.setAuthenticator(new DefaultAuthenticator("mohitdurgavale05@gmail.com", ""));
-			email.setSSLOnConnect(true);
-			email.setFrom("mohitdurgavale05@gmail.com"); // Sender
-			email.setSubject("Test Results");
-			email.setMsg("Please find Attached Report....");
-			email.addTo("mohitdurgawale@gmail.com"); // Receiver
-			email.attach(url, "extent report", "please check report...");
-			email.send(); // send the email
-		} catch (Exception e) {
+		File extentReport = new File(pathOfExtentReport);
+
+		try {
+			Desktop.getDesktop().browse(extentReport.toURI());
+		} catch (IOException e) {
 			e.printStackTrace();
-		}*/
+		}
+
+		/*
+		 * try { URL url = new URL("file:///" + System.getProperty("user.dir") +
+		 * "\\reports\\" + repName);
+		 * 
+		 * // Create the email message ImageHtmlEmail email = new ImageHtmlEmail();
+		 * email.setDataSourceResolver(new DataSourceUrlResolver(url));
+		 * //email.setHostName("smtp.googlemail.com"); //email.setSmtpPort(465);
+		 * email.setAuthenticator(new DefaultAuthenticator("mohitdurgavale05@gmail.com",
+		 * "")); email.setSSLOnConnect(true);
+		 * email.setFrom("mohitdurgavale05@gmail.com"); // Sender
+		 * email.setSubject("Test Results");
+		 * email.setMsg("Please find Attached Report....");
+		 * email.addTo("mohitdurgawale@gmail.com"); // Receiver email.attach(url,
+		 * "extent report", "please check report..."); email.send(); // send the email }
+		 * catch (Exception e) { e.printStackTrace(); }
+		 */
 	}
 }
